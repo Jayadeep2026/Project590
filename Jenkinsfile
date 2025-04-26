@@ -9,6 +9,7 @@ pipeline {
         stage('GIT PULL') {
             steps {
                 git branch: "master",
+                credentialsId:'Jayadeep2026',
                 url: 'https://github.com/Jayadeep2026/Project590.git'
             }
         }
