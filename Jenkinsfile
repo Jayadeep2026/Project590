@@ -8,10 +8,8 @@ pipeline {
     stages {
         stage('GIT PULL') {
             steps {
-            withEnv(['PATH+EXTRA=C:\\Program Files\\Git\\bin']){
                 git branch: "master",
                 url: 'https://github.com/Jayadeep2026/Project590.git'
-            }
             }
         }
 
