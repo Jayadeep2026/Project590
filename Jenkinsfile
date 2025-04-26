@@ -1,10 +1,8 @@
 pipeline {
     agent any
     environment {
-
-        PATH = "C:\\WINDOWS\\SYSTEM32",
-        FLUTTER = "C:\\Project\\flutter_windows_2.10.5-stable\\flutter\\bin"
-
+        PATH = 'C:\\WINDOWS\\SYSTEM32"\\'
+        FLUTTER = 'C:\\Project\\flutter_windows_2.10.5-stable\\flutter\\bin'
     }
 
     stages {
