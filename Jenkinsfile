@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {label 'windows'}
+    environment {
+
+        PATH = "C:\\WINDOWS\\SYSTEM32"
+
+    }
 
     stages {
         stage('GIT PULL') {
