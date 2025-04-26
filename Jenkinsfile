@@ -1,5 +1,4 @@
 pipeline {
-    agent none
     environment {
 
         PATH = "C:\\WINDOWS\\SYSTEM32"
