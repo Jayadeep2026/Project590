@@ -3,6 +3,7 @@ pipeline {
     environment {
 
         PATH = "C:\\WINDOWS\\SYSTEM32"
+        PATH = "C:\\Project\\flutter_windows_2.10.5-stable\\flutter\\bin"
 
     }
 
