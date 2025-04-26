@@ -18,8 +18,8 @@ pipeline {
         stage('BUILD') {
             steps {
             withEnv(['PATH+EXTRA=C:\\Project\\flutter_windows_2.10.5-stable\\flutter\\bin']){
-                bat ''' Echo starting build'''
-                bat ''' flutter build web --wasm'''
+                bat 'Echo starting build'
+                bat 'flutter build web --wasm'
             }
             }
         }
