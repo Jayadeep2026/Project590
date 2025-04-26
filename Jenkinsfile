@@ -9,10 +9,8 @@ pipeline {
         }
 
         stage('BUILD') {
-            steps {
                 bat ''' Echo starting build'''
                 bat ''' flutter build web --wasm'''
-            }
         }
     }
 }
